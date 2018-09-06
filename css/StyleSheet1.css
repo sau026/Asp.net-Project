@@ -1,0 +1,40 @@
+﻿.btn 
+{
+    background-color:darkorange;
+    border-radius:15px;
+    height:35px;
+    width:104px;
+    position: absolute;
+    border-bottom:3px solid black;
+    z-index: 1;
+}
+.btn:hover
+{
+    background-color:OrangeRed;
+}
+.lbl
+{
+    border-radius:15px;
+    font-weight:bold;
+    color:Black;
+    font-size:xx-large;
+}
+.lbl
+{
+    border-radius:15px;
+    font-weight:bold;
+    color:blue;
+    font-size:large;
+}
+.txt
+{
+    border-radius:15px;
+    height:25px;
+    width:210px;
+    background-color:#FFFFCC;
+    text-align: left;
+}
+.psc
+{
+    color:Blue;
+}

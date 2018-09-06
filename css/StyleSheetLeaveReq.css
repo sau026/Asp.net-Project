@@ -1,0 +1,37 @@
+﻿.btn 
+{
+    background-color:Navy;
+    border-radius:10px;
+    height:30px;
+    width:110px;
+    position: absolute;
+    border-bottom:2px solid black;
+    top: 428px;
+    left: 435px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.btn:hover
+{
+    background-color:DodgerBlue;
+}
+.lbl
+{
+    font-weight:bold;
+    color:Black;
+    font-size:large;
+     position: absolute;
+    top: 305px;
+    left: 689px;
+    height: 43px;
+    width: 163px;
+}
+.txt
+{
+    border-radius:10px;
+    height:20px;
+    width:210px;
+    background-color:#FFFFCC;
+    position: absolute;
+    
+}

@@ -1,0 +1,219 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPageAdmin.master.cs" Inherits="MasterPageAdmin" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 97%;
+            height: 671px;
+            background-color: #FFFFFF;
+            color: #0000CC;
+        }
+        .style2
+        {
+            height: 109px;
+            background-color: #FFFFFF;
+            width: 1244px;
+        }
+        .style3
+        {
+            height: 40px;
+            color: #33CC33;
+            background-color: #009900;
+            width: 1244px;
+        }
+        .style4
+        {
+            height: 547px;
+            width: 1244px;
+        }
+         .menu
+        {
+            border-left: 5px solid #009900;
+            border-right: 5px solid #009900;
+            border-top: 5px solid #009900;
+            background-image:url('Image/menu9.1.jpg');
+            width:120px;
+            height:30px;
+            text-align:center;
+            line-height:30px;
+            float:left;
+            text-decoration:none;
+            color:white;
+            top: -2px;
+            margin-bottom: 0px;
+            font-weight: 700;
+            border-radius:15px;
+            border-bottom:1px solid black;
+            z-index: 1;
+            left: 657px;
+            position: absolute;
+        }
+        .menu:hover
+        {
+            background-image:url('Image/umenuhover1.1.png');
+        }
+        .style5
+        {
+            width: 1244px;
+            height: 70px;
+        }
+    </style>
+</head>
+<body style="color: #FFFFFF; background-color: #FFFFFF; height: 958px;">
+    <form id="form1" runat="server">
+    <div style="background-color: #FFFFFF; position: relative;">
+       
+        <table class="style1" align="center" cellspacing="3">
+            <tr>
+                <td class="style2" style="background-image: url('/Leave/Image/banner1.jpg')">
+                <div style="width: 1277px; position: relative">
+                    <asp:ImageButton ID="Logo" runat="server" Height="100px" 
+                        ImageUrl="~/Image/fef05ccd-a392-4cb2-aade-4eef1bc22961.png" 
+                        onclick="ImageButton1_Click" style="position: relative; top: 0px; left: 69px" 
+                        Width="101px" CausesValidation="False" />
+                    <asp:LinkButton ID="Heading1" runat="server" Font-Bold="True" 
+                        Font-Italic="False" Font-Names="Franklin Gothic Book" 
+                        
+                        style="position: absolute; z-index: 1; left: 211px; top: 22px; width: 209px; font-size: xx-large; color: #0000CC; font-family: 'MV Boli'; right: 857px;" 
+                        Font-Underline="False" CausesValidation="False" onclick="Heading1_Click">Plan</asp:LinkButton>
+                    <asp:LinkButton ID="LinkButton2" runat="server" Font-Bold="True" 
+                        Font-Italic="False" Font-Names="Franklin Gothic Book" 
+                        
+                        style="position: absolute; z-index: 1; left: 275px; top: 22px; width: 44px; font-size: xx-large; color: #009933; font-family: 'MV Boli';" 
+                        Font-Underline="False" CausesValidation="False">My</asp:LinkButton>
+                    <asp:LinkButton ID="LinkButton3" runat="server" Font-Bold="True" 
+                        Font-Italic="False" Font-Names="Franklin Gothic Book" 
+                        
+                        style="position: absolute; z-index: 1; left: 320px; top: 23px; width: 85px; font-size: xx-large; color: #FF3300; font-family: 'MV Boli';" 
+                        Font-Underline="False" CausesValidation="False">Leave</asp:LinkButton>
+                    <asp:Label ID="Label1" runat="server" 
+                        style="position: absolute; z-index: 1; left: 208px; top: 60px; right: 597px; font-size: x-large; font-style: italic; height: 31px; color: #0000CC; font-weight: 700" 
+                        Text="Easy Online Leave Management"></asp:Label>
+                    <asp:ImageButton ID="Mobile" runat="server" 
+                        ImageUrl="~/Image/mobile-phone-8-512.gif" 
+                        
+                        
+                        style="position: relative; top: -58px; left: 800px; height: 25px; width: 27px; bottom: 58px;" 
+                        CausesValidation="False" />
+                    <asp:ImageButton ID="Email" runat="server" 
+                        ImageUrl="~/Image/contactus_1.gif" 
+                        
+                        
+                        style="position: relative; top: -19px; left: 771px; height: 25px; width: 26px" 
+                        CausesValidation="False" />
+                    <asp:ImageButton ID="LoginBtn" runat="server" 
+                        ImageUrl="~/Image/login2.png" 
+                        
+                        
+                        
+                        style="position: relative; top: 3px; left: 1027px; height: 35px; width: 90px" 
+                        CausesValidation="False" onclick="LoginBtn_Click" />
+                    <asp:Image ID="Image1" runat="server" ImageUrl="~/Image/User_login.png" 
+                        
+                        style="position: relative; top: 1px; left: 905px; width: 24px; height: 29px" />
+                    <asp:Label ID="Label2" runat="server" 
+                        style="position: absolute; z-index: 1; left: 943px; top: 22px; width: 143px; font-weight: 700; color: #0000CC; height: 17px;" 
+                        Text="1-130-216-2435"></asp:Label>
+                    <asp:Label ID="Label3" runat="server" 
+                        style="z-index: 1; left: 944px; top: 59px; position: absolute; font-weight: 700; color: #0000CC; width: 183px" 
+                        Text="Support@technoindia.com"></asp:Label>
+                    <asp:ImageButton ID="Register" runat="server" ImageUrl="~/Image/signup.png" 
+                        
+                        style="z-index: 1; left: 911px; top: -35px; position: relative; height: 30px; width: 81px" 
+                        onclick="Register_Click" CausesValidation="False" />
+                        </div>
+                </td>
+            </tr>
+            <tr>
+                <td class="style3">
+                <div style="position: relative; top: 1px; left: 1px; height: 33px; width: 1275px">
+                    <asp:ImageButton ID="logoutbtn" runat="server" ImageUrl="~/Image/logout1.1.png" 
+                        
+                        
+                        style="position: relative; top: 1px; left: 1159px; width: 113px; height: 31px" 
+                        CausesValidation="False" onclick="logoutbtn_Click" />
+                    <asp:LinkButton ID="LinkBtnHome" runat="server" CssClass="menu" 
+                        style="z-index: 1; left: 7px; top: -2px; position: absolute; right: 1092px;" 
+                        CausesValidation="False" onclick="LinkBtnHome_Click">Home</asp:LinkButton>
+                    <asp:LinkButton ID="LinkBtnLR" runat="server" CssClass="menu" 
+                        style="z-index: 1; left: 267px; top: -2px; position: absolute; right: 832px;" 
+                        CausesValidation="False" onclick="LinkBtnLR_Click">Leave Form</asp:LinkButton>
+                    <asp:LinkButton ID="LinkBtnAbout" runat="server" CssClass="menu" 
+                        style="z-index: 1; left: 137px; top: -2px; position: absolute" 
+                        CausesValidation="False" onclick="LinkBtnAbout_Click">AboutUs</asp:LinkButton>
+                    <asp:LinkButton ID="LinkBtnSTAT" runat="server" CssClass="menu" 
+                        onclick="LinkBtnSTAT_Click" 
+                        
+                        style="z-index: 1; left: 397px; top: -2px; position: absolute; right: 748px;" 
+                        CausesValidation="False">Leave Status</asp:LinkButton>
+                    <asp:LinkButton ID="LinkBtnUser" runat="server" CssClass="menu" 
+                        onclick="LinkBtnUser_Click" 
+                        style="z-index: 1; left: 527px; top: -2px; position: absolute" 
+                        CausesValidation="False">User Profile</asp:LinkButton>
+                    <asp:LinkButton ID="LinkBtnLStatis" runat="server" CssClass="menu" 
+                        onclick="LinkBtnLStatis_Click" Visible="False" CausesValidation="False">Leave Statistics</asp:LinkButton>
+                </div></td>
+            </tr>
+            <tr>
+                <td class="style4" style="background-color: #FFFFFF">
+                <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+                    
+                    <p>
+                        &nbsp;</p>
+                    
+        </asp:ContentPlaceHolder>
+                    </td>
+            </tr>
+            <tr>
+                <td style="background-color: #009900" class="style5">
+                <div style="height: 59px; width: 1278px; position: relative">
+                    <asp:ImageButton ID="facebookbtn" runat="server" Height="35px" 
+                        ImageUrl="~/Image/facebook.png" 
+                        style="z-index: 1; left: 1233px; top: 11px; position: absolute" 
+                        Width="41px" CausesValidation="False" />
+                    <asp:ImageButton ID="Linkedinbtn" runat="server" 
+                        ImageUrl="~/Image/linkedin-256.png" 
+                        
+                        
+                        
+                        
+                        
+                        style="z-index: 1; left: 1126px; top: 8px; position: absolute; height: 43px; width: 50px" 
+                        CausesValidation="False" />
+                    <asp:ImageButton ID="Twitterbtn" runat="server" 
+                        ImageUrl="~/Image/Twitter-icon.png" 
+                        
+                        
+                        
+                        
+                        
+                        style="z-index: 1; left: 1185px; top: 11px; position: absolute; height: 38px; width: 45px" 
+                        CausesValidation="False" />
+                    <asp:Label ID="Label4" runat="server" 
+                        style="font-weight: 700; color: #000000; text-decoration: underline; z-index: 1; left: 973px; top: 16px; position: absolute; font-size: x-large" 
+                        Text="Follow us on"></asp:Label>
+                    <asp:Label ID="Label5" runat="server" 
+                        style="font-weight: 700; z-index: 1; left: 7px; top: 17px; position: absolute; color: #000000; font-size: x-large; height: 27px; width: 253px;" 
+                        Text="Reasons to Sign up:-"></asp:Label>
+                    <asp:Label ID="Label6" runat="server" 
+                        style="z-index: 1; left: 228px; top: 22px; position: absolute; font-weight: 700; color: #FFFFFF; height: 22px; width: 245px; right: 805px;" 
+                        Text="Apply For Leave Request"></asp:Label>
+                        </div>
+                </td>
+            </tr>
+            </table>
+       
+    </div>
+    </form>
+</body>
+</html>
+
+
+ 

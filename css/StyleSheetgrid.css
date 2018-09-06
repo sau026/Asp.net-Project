@@ -1,0 +1,25 @@
+﻿.txt
+{
+    border-radius:10px;
+    background-color:#FFFFCC;
+    height:22px;
+    width:180px;
+    margin-left: 0px;
+}
+.lbl
+{
+    color:Black;
+    font-weight:bold
+}
+.btn
+{
+    border-radius:10px;
+    border-bottom:2px solid black;
+    background-color:Blue;
+    width:94px;
+    height:30px;
+}
+.btn:hover
+{
+    background-color:DodgerBlue;
+}
